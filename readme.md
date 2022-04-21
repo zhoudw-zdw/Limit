@@ -23,7 +23,7 @@ contextualizes the instance-specific embedding with a set-to-set function. LIMIT
 <img src='imgs/teaser.png' width='1000' height='300'>
 
 ## Results
-<img src='imgs/result.png' width='900' height='563'>
+<img src='imgs/result.png' width='900' height='778'>
 
 Please refer to our [paper](https://arxiv.org/abs/2203.17030) for detailed values.
 
