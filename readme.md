@@ -20,7 +20,7 @@ New classes arise frequently in our ever-changing world, e.g., emerging topics i
 circumstances, only limited novel instances are available to incrementally update the model. The task of recognizing few-shot new classes without forgetting old classes is called few-shot class-incremental learning (FSCIL). In this work, we propose a new paradigm for FSCIL based on meta-learning by LearnIng Multi-phase Incremental Tasks (LIMIT), which synthesizes fake FSCIL tasks from the base dataset. The data format of fake tasks is consistent with the ‘real’ incremental tasks, and we can build a generalizable feature space for the unseen tasks through meta-learning. Besides, LIMIT also constructs a calibration module based on transformer, which calibrates the old class classifiers and new class prototypes into the same scale and fills in the semantic gap. The calibration module also adaptively
 contextualizes the instance-specific embedding with a set-to-set function. LIMIT efficiently adapts to new classes and meanwhile resists forgetting over old classes. Experiments on three benchmark datasets (CIFAR100, miniImageNet, and CUB200) and large-scale dataset, i.e., ImageNet ILSVRC2012 validate that LIMIT achieves state-of-the-art performance.
 
-<img src='imgs/teaser.png' width='1000' height='300'>
+<img src='imgs/teaser.png' width='950' height='300'>
 
 ## Results
 <img src='imgs/result.png' width='900' height='778'>
@@ -70,7 +70,7 @@ Remember to change `YOURDATAROOT` into your own data root, or you will encounter
   
 
  
-## Acknowledgment
+<!-- ## Acknowledgment
 We thank the following repos providing helpful components/functions in our work.
 
 - [Awesome Few-Shot Class-Incremental Learning](https://github.com/zhoudw-zdw/Awesome-Few-Shot-Class-Incremental-Learning)
@@ -79,9 +79,9 @@ We thank the following repos providing helpful components/functions in our work.
 
 - [Fact](https://github.com/zhoudw-zdw/CVPR22-Fact)
 
-- [CEC](https://github.com/icoz69/CEC-CVPR2021)
+- [CEC](https://github.com/icoz69/CEC-CVPR2021) -->
 
 
 
-## Contact 
-If there are any questions, please feel free to contact with the author:  Da-Wei Zhou (zhoudw@lamda.nju.edu.cn). Enjoy the code.
+<!-- ## Contact 
+If there are any questions, please feel free to contact with the author:  Da-Wei Zhou (zhoudw@lamda.nju.edu.cn). Enjoy the code. -->
